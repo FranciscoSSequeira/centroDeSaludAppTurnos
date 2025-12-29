@@ -1,0 +1,88 @@
+/* Home.module.css */
+
+:root {
+    --primary-color: #000;
+    --secondary-color: #fff;
+    --charcoal: #383f51ff;
+    --lavender-web: #dddbf1ff;
+    --yinmn-blue: #3c4f76ff;
+    --dun: #d1beb0ff;
+    --rose-quartz: #ab9f9dff;
+  }
+  
+  .homeContainer {
+    min-height: 100vh;
+    background-color: var(--lavender-web);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    color: var(--charcoal);
+  }
+  
+  .heroSection {
+    background-color: var(--secondary-color);
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .heroTitle {
+    font-size: 3rem;
+    color: var(--yinmn-blue);
+    margin-bottom: 20px;
+  }
+  
+  .heroSubtitle {
+    font-size: 1.5rem;
+    color: var(--charcoal);
+    margin-bottom: 40px;
+  }
+  
+  .heroButton {
+    background-color: var(--yinmn-blue);
+    color: var(--secondary-color);
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .heroButton:hover {
+    background-color: var(--charcoal);
+  }
+  
+  .featuresSection {
+    margin-top: 60px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .featureCard {
+    background-color: var(--secondary-color);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    text-align: center;
+  }
+  
+  .featureTitle {
+    color: var(--yinmn-blue);
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  
+  .featureDescription {
+    color: var(--charcoal);
+    font-size: 1rem;
+  }
+  

@@ -1,0 +1,47 @@
+:root {
+    --primary-color: #000;
+    --secondary-color: #fff;
+    --charcoal: #383f51ff;
+    --lavender-web: #dddbf1ff;
+    --yinmn-blue: #3c4f76ff;
+    --dun: #d1beb0ff;
+    --rose-quartz: #ab9f9dff;
+  }
+  
+  .cardContainer {
+    background-color: var(--lavender-web);
+    border: 1px solid var(--yinmn-blue);
+    border-radius: 12px;
+    padding: 1rem 1.5rem;
+    margin: 1rem 0;
+    box-shadow: 0 2px 6px rgba(60, 79, 118, 0.15);
+    color: var(--charcoal);
+    font-family: sans-serif;
+    transition: transform 0.2s ease;
+  }
+  
+  .cardContainer:hover {
+    transform: scale(1.02);
+  }
+  
+  .cardContainer p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+  }
+  
+  .button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: var(--yinmn-blue);
+    color: var(--secondary-color);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: var(--charcoal);
+  }
+  

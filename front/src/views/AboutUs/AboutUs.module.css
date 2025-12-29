@@ -1,0 +1,142 @@
+:root {
+    --primary-color: #000;
+    --secondary-color: #fff;
+    --charcoal: #383f51ff;
+    --lavender-web: #dddbf1ff;
+    --yinmn-blue: #3c4f76ff;
+    --dun: #d1beb0ff;
+    --rose-quartz: #ab9f9dff;
+  }
+  
+  .about-container {
+    background-color: var(--lavender-web);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+  }
+  
+  .about-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .about-card {
+    background-color: var(--secondary-color);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    text-align: center;
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .about-text {
+    flex: 1;
+    text-align: left;
+    min-width: 280px;
+    
+  }
+  .about-text p {
+    color: var(--charcoal);
+    font-size: 1rem;
+  }
+  
+  .about-image img {
+    max-width: 300px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: var(--yinmn-blue);
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+
+  li {
+    color: var(--charcoal);
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  ul {
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .about-content {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .about-text {
+      text-align: center;
+    }
+  
+    .about-image img {
+      max-width: 100%;
+    }
+  }
+  
+  /* Animación de entrada */
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .about-card {
+    animation: fadeInUp 0.8s ease forwards;
+    opacity: 0; /* Inicialmente oculto, se revela con la animación */
+  }
+  
+  /* Delay entre las cards si quisieras diferenciar más */
+  .about-wrapper .about-card:nth-child(1) {
+    animation-delay: 0.1s;
+  }
+  .about-wrapper .about-card:nth-child(2) {
+    animation-delay: 0.3s;
+  }
+  
+  /* Hover suave sobre la imagen */
+  .about-image img {
+    transition: transform 0.3s ease;
+  }
+  
+  .about-image img:hover {
+    transform: scale(1.03);
+  }
+  /* animacion sobre la card */
+  .about-card {
+    animation: fadeInUp 0.8s ease forwards;
+    opacity: 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .about-card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  }
+  

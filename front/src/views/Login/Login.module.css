@@ -1,0 +1,80 @@
+:root {
+  --primary-color: #000;
+  --secondary-color: #fff;
+  --charcoal: #383f51ff;
+  --lavender-web: #dddbf1ff;
+  --yinmn-blue: #3c4f76ff;
+  --dun: #d1beb0ff;
+  --rose-quartz: #ab9f9dff;
+}
+
+.loginContainer {
+  min-height: 100vh;
+  background-color: var(--lavender-web);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.loginCard {
+  background-color: var(--secondary-color);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  max-width: 600px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: var(--yinmn-blue);
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+label {
+  color: var(--charcoal);
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid var(--rose-quartz);
+  border-radius: 8px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+input:focus {
+  outline: none;
+  border-color: var(--yinmn-blue);
+  box-shadow: 0 0 5px var(--yinmn-blue);
+}
+
+p {
+  color: red;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+button {
+  background-color: var(--yinmn-blue);
+  color: var(--secondary-color);
+  border: none;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--charcoal);
+}
