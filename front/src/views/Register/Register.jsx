@@ -27,7 +27,7 @@ function Register(){
                 alert("Datos Incorrectos");
                 return;
             }
-            const response = await axios.post("http://localhost:3000/users/register", form);
+            const response = await axios.post("https://centrodesaludappturnos.onrender.com/register", form);
 
             alert("Registro exitoso")
             console.log(response.data);
