@@ -14,7 +14,7 @@ export function UserProvider({ children }) {
 
         try {
         
-                    const response = await axios.post(`http://localhost:3000/users/login`, userData);
+                    const response = await axios.post(`https://centrodesaludappturnos.onrender.com/login`, userData);
 
                     setUserAppointments(response.data.user.appointments);
         
@@ -33,13 +33,13 @@ export function UserProvider({ children }) {
 
     
     const getAppointments = async () => {
-                const res = await axios.get(`http://localhost:3000/appointments/${user.id}`);
+                const res = await axios.get(`https://centrodesaludappturnos.onrender.com/appointments/${user.id}`);
                 setUserAppointments(res.data);
             };
 
     const createAppointment = async (data) => {
         try {
-            const response = await axios.post(`http://localhost:3000/appointments/schedule`, {...data, userId: user.Id});
+            const response = await axios.post(`https://centrodesaludappturnos.onrender.com/appointments/schedule`, {...data, userId: user.Id});
             setUserAppointments((prevState) => [...prevState, response.data])
         } catch (error) {
             console.log(error);
@@ -49,7 +49,7 @@ export function UserProvider({ children }) {
     }
 
     const cancelAppointment = async (id) => {
-        await axios.put(`http://localhost:3000/appointments/cancel/${id}`);
+        await axios.put(`https://centrodesaludappturnos.onrender.com/appointments/cancel/${id}`);
         
         setUserAppointments((prevState) => prevState.map((elem) => {
             if(elem.id == id){
