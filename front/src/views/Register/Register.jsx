@@ -27,16 +27,29 @@ function Register(){
                 alert("Datos Incorrectos");
                 return;
             }
+
+            console.log("Datos enviados al backend:", form); // Verificar los datos enviados
+
             const response = await axios.post("https://centrodesaludappturnos.onrender.com/users/register", form);
 
-            alert("Registro exitoso")
-            console.log(response.data);
+            console.log("Respuesta del backend:", response.data); // Verificar la respuesta del backend
+
+             if (response.data) {
+            alert("Registro exitoso");
+            console.log("Respuesta del backend:", response.data);
+            } else {
+            alert("Error inesperado en el registro.");
+            }
             
         } catch (error) {
-            alert(error.response.data.message)
-            }
+             console.log("Error en el registro:", error);
+        if (error.response && error.response.data && error.response.data.message) {
+            alert(error.response.data.message);
+        } else {
+            alert("Error al conectar con el servidor.");
+        }
     }
-
+}
     useEffect(() => {
         setErrors(validateRegister(form));
     }, [form]);
