@@ -14,7 +14,7 @@ export function UserProvider({ children }) {
 
         try {
         
-                    const response = await axios.post(`https://centrodesaludappturnos.onrender.com/login`, userData);
+                    const response = await axios.post(`https://centrodesaludappturnos.onrender.com/users/login`, userData);
 
                     setUserAppointments(response.data.user.appointments);
         
