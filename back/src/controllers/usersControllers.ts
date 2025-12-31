@@ -40,6 +40,11 @@ export const getUsersByIdController = async (req:Request , res:Response) => {
 export const registerUserController = async (req:Request , res:Response) => {
     try {
         const{name, birthdate, nDni, email, username, password}: ICreateUserDTO = req.body;
+        
+          if (isNaN(Number(nDni))) {
+            return res.status(400).json({ message: "El campo nDni debe ser un número válido." });
+        }
+        
         const user : User = await createUser({name, birthdate, nDni, email, username, password});
 
         const responseUserDTO: IResponseUserDTO = {
