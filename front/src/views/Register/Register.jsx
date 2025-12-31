@@ -46,7 +46,7 @@ function Register(){
         if (error.response && error.response.data && error.response.data.message) {
             alert(error.response.data.message);
         } else {
-            alert("Error al conectar con el servidor.");
+            alert("Error al conectar con el servidor.", error);
         }
     }
 }
