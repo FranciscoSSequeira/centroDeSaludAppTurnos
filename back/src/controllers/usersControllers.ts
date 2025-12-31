@@ -12,11 +12,7 @@ export const getUsersController = async (req: Request , res: Response) => {
 
         const users: User[] = await getAllUsers();
         res.status(200).json(users);
-       
-        // res.status(200).json({
-        //     status:200,
-        //     message: "Obtener el listado de todos los usuarios"
-        
+               
     } catch  (error: any) {
         res.status(400).json({
             message: error.message,
