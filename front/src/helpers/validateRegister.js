@@ -20,6 +20,13 @@ const validateRegister = (formData) => {
         errors.password = "La contraseña debe tener al menos 3 caracteres"
     }
 
+    // Validación para el DNI
+    if (!formData.nDni) {
+        errors.nDni = "El DNI es un dato requerido"
+    } else if (isNaN(Number(formData.nDni)) || Number(formData.nDni) <= 0) {
+        errors.nDni = "El DNI debe ser un número válido"
+    }
+
     return errors;
 };
 
