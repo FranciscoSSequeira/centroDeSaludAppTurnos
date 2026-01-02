@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.DB_DATABASE = exports.DB_PASSWORD = exports.DB_USERNAME = exports.DB_PORT = exports.DB_HOST = exports.PORT = void 0;
+require("dotenv/config");
+exports.PORT = Number(process.env.PORT) || 8080;
+exports.DB_HOST = process.env.DB_HOST || "localhost";
+exports.DB_PORT = Number(process.env.DB_PORT) || 5432;
+exports.DB_USERNAME = process.env.DB_USERNAME;
+exports.DB_PASSWORD = process.env.DB_PASSWORD;
+exports.DB_DATABASE = process.env.DB_DATABASE;

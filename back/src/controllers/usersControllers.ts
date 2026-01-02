@@ -37,12 +37,13 @@ export const getUsersByIdController = async (req:Request , res:Response) => {
 };
 
 // POST /users/register => Registro de un nuevo usuario.
-export const registerUserController = async (req:Request , res:Response) => {
+export const registerUserController = async (req:Request , res:Response): Promise<void>  => {
     try {
         const{name, birthdate, nDni, email, username, password}: ICreateUserDTO = req.body;
         
-          if (isNaN(Number(nDni))) {
-            return res.status(400).json({ message: "El campo nDni debe ser un número válido." });
+        if (isNaN(Number(nDni))) {
+            res.status(400).json({ message: "El campo nDni debe ser un número válido." });
+            return;
         }
         
         const user : User = await createUser({name, birthdate, nDni, email, username, password});
@@ -64,7 +65,7 @@ export const registerUserController = async (req:Request , res:Response) => {
 };
 
 // POST /users/login => Login del usuario a la aplicación.
-export const loginUserController = async (req:Request , res:Response) => {
+export const loginUserController = async (req:Request , res:Response): Promise<void> => {
     try {
         console.log("Datos recibidos en el login:", req.body); // Log para verificar los datos recibidos
 
