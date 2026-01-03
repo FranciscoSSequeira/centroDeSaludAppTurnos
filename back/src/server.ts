@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000
 const server = express();
 
 server.use(cors({
-    origin: "https://centrodesaludappturnos.vercel.app", // Permitir solo el frontend en producción
+    origin: "https://centro-de-salud-app-turnos.vercel.app/", // Permitir solo el frontend en producción
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
 }));
