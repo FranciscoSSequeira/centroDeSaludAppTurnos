@@ -1,6 +1,7 @@
 import { useContext, useEffect } from 'react';
 import './App.css'
 import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer'; 
 import AboutUs from './views/AboutUs/AboutUs';
 import Home from './views/Home/Home';
 import Login from './views/Login/Login';
