@@ -2,8 +2,10 @@ import validateRegister from "../../helpers/validateRegister";
 import styles from "./Register.module.css";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 function Register() {
+    const navigate = useNavigate(); 
     const initialState = {
         name: "",
         email: "",
@@ -28,15 +30,17 @@ function Register() {
                 return;
             }
 
-            console.log("Datos enviados al backend:", form); // Verificar los datos enviados
+            console.log("Datos enviados al backend:", form);
 
             const response = await axios.post(
                 "https://centrodesaludappturnos.onrender.com/users/register",
                 form
             );
 
-            console.log("Respuesta del backend:", response.data); // Verificar la respuesta del backend
+            console.log("Respuesta del backend:", response.data);
             alert("Registro exitoso");
+
+            navigate("/login");
         } catch (error) {
             console.error("Error en el registro:", error);
             if (error.response && error.response.data && error.response.data.message) {
