@@ -45,7 +45,20 @@ export const registerUserController = async (req:Request , res:Response): Promis
             res.status(400).json({ message: "El campo nDni debe ser un número válido." });
             return;
         }
-        
+
+            // Verificar si el email ya existen
+        const userRepository = AppDataSource.getRepository(User);
+        const existingUser = await userRepository.findOne({
+            where: { email },
+        });
+
+        if (existingUser) {
+            res.status(400).json({
+                message: "El email o el nombre de usuario ya está en uso.",
+            });
+            return;
+        }
+
         const user : User = await createUser({name, birthdate, nDni, email, username, password});
 
         const responseUserDTO: IResponseUserDTO = {
