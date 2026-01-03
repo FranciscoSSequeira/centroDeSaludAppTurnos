@@ -5,7 +5,7 @@ function Footer() {
         <footer className={styles.footer}>
             <div className={styles.container}>
                <p className={styles.copyright}>
-                    &copy; {new Date().getFullYear()} Centro de Salud. Todos los derechos reservados.
+                    &copy; {new Date().getFullYear()} Centro de Salud. Todos los derechos reservados. Desarrollado por Francisco Sequeira.
                 </p>
             </div>
         </footer>
