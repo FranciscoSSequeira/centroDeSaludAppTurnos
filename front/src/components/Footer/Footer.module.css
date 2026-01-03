@@ -1,0 +1,19 @@
+.footer {
+    background-color: var(--yinmn-blue); 
+    color: var(--secondary-color); 
+    text-align: center;
+    padding: 20px 0;
+    border-top: 2px solid var(--charcoal); 
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.copyright {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+

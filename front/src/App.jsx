@@ -21,8 +21,8 @@ function App() {
       <Route path="/register" element={<Register/>}/>
       <Route path="/login" element={<Login/>}/>
       <Route path="*" element={<h2>ruta no encontrada</h2>}/>
-
-    </Routes>   
+    </Routes> 
+    <Footer />  
     </>
   )
 }
