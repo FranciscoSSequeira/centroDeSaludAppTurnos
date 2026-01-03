@@ -18,7 +18,7 @@ function Navbar() {
 
             <div className={styles.logoContainer}>
                 <img 
-                    src= "/public/icono-title-page.png"
+                    src= "/icono-title-page.png"
                     alt="Logo de la empresa" 
                     className={styles.logo}
                 />
