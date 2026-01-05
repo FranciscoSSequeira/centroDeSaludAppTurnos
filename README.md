@@ -117,9 +117,9 @@ Preparar un proyecto real para portfolio profesional
 <img width="1586" height="750" alt="Captura4" src="https://github.com/user-attachments/assets/7500fbfa-066f-4db2-b1bf-be09e3c2ba2b" />
 <img width="1566" height="706" alt="Captura5" src="https://github.com/user-attachments/assets/366617f5-aebd-412a-900d-60edfc5d31a3" />
 
-🔑 Usuarios de prueba
-Username: prueba1
-Contraseña: 123456
+🔑 Usuarios de prueba: 
+-Username: prueba1
+-Contraseña: 123456
 
 👨‍💻 Sobre el desarrollador:
 
