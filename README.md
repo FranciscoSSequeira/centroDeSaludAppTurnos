@@ -27,6 +27,7 @@ Actualmente no cuenta con diferenciación de roles (admin / médico / usuario) n
 ## 🖥️ Vistas de la aplicación:
 
 Home
+<img width="1575" height="760" alt="Captura" src="https://github.com/user-attachments/assets/5a0a2858-ba02-44be-8dcd-56d4c95447d0" />
 
 About Us
 
@@ -113,7 +114,7 @@ Preparar un proyecto real para portfolio profesional
 
 ## 📸 Screenshots:
 
-<img width="1575" height="760" alt="Captura" src="https://github.com/user-attachments/assets/5a0a2858-ba02-44be-8dcd-56d4c95447d0" />
+
 <img width="1548" height="765" alt="Captura2" src="https://github.com/user-attachments/assets/eba62c4b-9c56-4440-b04d-9bedf6928696" />
 <img width="1574" height="749" alt="Captura3" src="https://github.com/user-attachments/assets/6daeb307-6b93-469d-808d-576f4d7eae5a" />
 <img width="1586" height="750" alt="Captura4" src="https://github.com/user-attachments/assets/7500fbfa-066f-4db2-b1bf-be09e3c2ba2b" />
