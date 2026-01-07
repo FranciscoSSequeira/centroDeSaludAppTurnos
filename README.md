@@ -38,7 +38,8 @@ Actualmente no cuenta con diferenciación de roles (admin / médico / usuario) n
 
 ### 🏠 Home
 <p>Vista principal de la aplicación, donde se presenta el servicio de gestión de turnos.</p>
-<img alt="Home" src="https://github.com/user-attachments/assets/5a0a2858-ba02-44be-8dcd-56d4c95447d0" />
+<img width="2560" height="2054" alt="centro-de-salud-app-turnosHome" src="https://github.com/user-attachments/assets/1ea0f151-016f-4fe5-8f99-eea2fad8b6b8" />
+
 
 </td>
     <td width="50%" align="center" valign="top">
