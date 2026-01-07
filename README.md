@@ -58,14 +58,16 @@ Actualmente no cuenta con diferenciación de roles (admin / médico / usuario) n
 
 ### 📝 Registro
 <p>Formulario de creación de usuario para acceder al sistema.</p>
-<img alt="Registro" src="https://github.com/user-attachments/assets/6daeb307-6b93-469d-808d-576f4d7eae5a" />
+<img width="2560" height="2322" alt="centro-de-salud-app-turnosregister" src="https://github.com/user-attachments/assets/b1682c17-b778-475c-96a1-a77b5a318b01" />
+
 
 </td>
     <td width="50%" align="center" valign="top">
 
 ### 🔐 Login
 <p>Formulario de autenticación mediante usuario y contraseña.</p>
-<img alt="Login" src="https://github.com/user-attachments/assets/7500fbfa-066f-4db2-b1bf-be09e3c2ba2b" />
+<img width="2560" height="2054" alt="centro-de-salud-app-turnos Login" src="https://github.com/user-attachments/assets/91af2f42-a740-47ce-8a5b-ed0c8fef219c" />
+
 
 </td>
   </tr>
@@ -76,7 +78,8 @@ Actualmente no cuenta con diferenciación de roles (admin / médico / usuario) n
 
 ### 📅 Vista de Turnos
 <p>Panel donde el usuario puede visualizar, agendar y cancelar turnos.</p>
-<img alt="Vista de Turnos" src="https://github.com/user-attachments/assets/366617f5-aebd-412a-900d-60edfc5d31a3" />
+<img width="2560" height="1600" alt="centro-de-salud-app-turnosappointments" src="https://github.com/user-attachments/assets/ed2cfafa-d208-42cb-8704-39f0094c6e22" />
+
 
 </td>
   </tr>
