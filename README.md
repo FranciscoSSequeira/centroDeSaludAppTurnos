@@ -1,10 +1,12 @@
-🏥 Aplicación de Turnos – Centro de Salud
+# 🏥 Aplicación de Turnos – Centro de Salud
 
 Aplicación Full Stack desarrollada como proyecto académico en el bootcamp SoyHenry, orientada a la gestión de turnos para centros de salud pequeños, con posibilidad de adaptarse a cualquier negocio que requiera un sistema de turnos.
 
 El objetivo principal del proyecto fue practicar y consolidar conocimientos Full Stack, integrando frontend, backend y base de datos en una aplicación funcional y deployada.
 
-✨ Funcionalidades principales
+🌐 Demo: [link a la app](https://centro-de-salud-app-turnos.vercel.app/)
+
+## ✨ Funcionalidades principales
 
 ✅ Registro de usuarios
 
@@ -22,7 +24,7 @@ El objetivo principal del proyecto fue practicar y consolidar conocimientos Full
 
 Actualmente no cuenta con diferenciación de roles (admin / médico / usuario) ni sistema de notificaciones, dejando estas funcionalidades como posibles mejoras futuras.
 
-🖥️ Vistas de la aplicación:
+## 🖥️ Vistas de la aplicación:
 
 Home
 
@@ -34,8 +36,8 @@ Registro (formulario de creación de usuario)
 
 Todas las vistas incluyen un footer común, manteniendo coherencia visual en la aplicación.
 
-🛠️ Stack Tecnológico
-Frontend:
+## 🛠️ Stack Tecnológico
+### Frontend:
 
 ⚛️ React + Vite
 
@@ -49,7 +51,7 @@ Frontend:
 
 🟨 JavaScript
 
-Backend:
+### Backend:
 
 🟢 Node.js
 
@@ -67,11 +69,11 @@ Backend:
 
 🔁 Nodemon
 
-Base de Datos:
+### Base de Datos:
 
 🐘 PostgreSQL
 
-☁️ Deploy:
+### ☁️ Deploy:
 
 Frontend: Vercel
 
@@ -81,7 +83,7 @@ Base de datos: Render (PostgreSQL)
 
 La aplicación se encuentra funcional y desplegada, aunque abierta a mejoras y nuevas funcionalidades.
 
-🎯 Objetivo del proyecto
+## 🎯 Objetivo del proyecto
 
 Este proyecto fue desarrollado con fines académicos y de aprendizaje, buscando:
 
@@ -95,7 +97,7 @@ Conectar frontend y backend mediante una API REST
 
 Preparar un proyecto real para portfolio profesional
 
-🚀 Posibles mejoras futuras:
+## 🚀 Posibles mejoras futuras:
 
 🔐 Diferenciación de roles (admin / médico / usuario)
 
@@ -109,7 +111,7 @@ Preparar un proyecto real para portfolio profesional
 
 📊 Panel de administración
 
-📸 Screenshots:
+## 📸 Screenshots:
 
 <img width="1575" height="760" alt="Captura" src="https://github.com/user-attachments/assets/5a0a2858-ba02-44be-8dcd-56d4c95447d0" />
 <img width="1548" height="765" alt="Captura2" src="https://github.com/user-attachments/assets/eba62c4b-9c56-4440-b04d-9bedf6928696" />
@@ -117,11 +119,11 @@ Preparar un proyecto real para portfolio profesional
 <img width="1586" height="750" alt="Captura4" src="https://github.com/user-attachments/assets/7500fbfa-066f-4db2-b1bf-be09e3c2ba2b" />
 <img width="1566" height="706" alt="Captura5" src="https://github.com/user-attachments/assets/366617f5-aebd-412a-900d-60edfc5d31a3" />
 
-🔑 Usuarios de prueba: 
+## 🔑 Usuarios de prueba: 
 -Username: prueba1
 -Contraseña: 123456
 
-👨‍💻 Sobre el desarrollador:
+## 👨‍💻 Sobre el desarrollador:
 
 Proyecto realizado por Francisco Sequeira, desarrollador Full Stack Junior / Trainee, en búsqueda de su primer experiencia laboral en IT.
 
@@ -138,4 +140,4 @@ Proyecto realizado por Francisco Sequeira, desarrollador Full Stack Junior / Tra
 -Mejores prácticas de código
 
 📎 LinkedIn: [link] www.linkedin.com/in/francisco-sequeira-
-🌐 Demo: [link a la app](https://centro-de-salud-app-turnos.vercel.app/)
+
