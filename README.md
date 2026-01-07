@@ -174,5 +174,5 @@ Preparar un proyecto real para portfolio profesional
 
 Proyecto realizado por Francisco Sequeira, desarrollador Full Stack Junior / Trainee, en búsqueda de su primer experiencia laboral en IT.
 
-📎 LinkedIn: [link] www.linkedin.com/in/francisco-sequeira-
+💼 LinkedIn: [link] www.linkedin.com/in/francisco-sequeira-
 
