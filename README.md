@@ -46,7 +46,8 @@ Actualmente no cuenta con diferenciación de roles (admin / médico / usuario) n
 
 ### ℹ️ About Us
 <p>Sección informativa con detalles sobre el centro de salud y su propuesta.</p>
-<img alt="About Us" src="https://github.com/user-attachments/assets/eba62c4b-9c56-4440-b04d-9bedf6928696" />
+<img width="2560" height="2054" alt="centro-de-salud-app-turnosaboutUs" src="https://github.com/user-attachments/assets/44497b69-7d3b-4e2a-96fe-72a2325b872d" />
+
 
 </td>
   </tr>
