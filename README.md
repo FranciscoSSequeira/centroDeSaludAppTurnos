@@ -6,6 +6,8 @@ El objetivo principal del proyecto fue practicar y consolidar conocimientos Full
 
 🌐 Demo: [link a la app](https://centro-de-salud-app-turnos.vercel.app/)
 
+---
+
 ## ✨ Funcionalidades principales
 
 ✅ Registro de usuarios
@@ -24,22 +26,62 @@ El objetivo principal del proyecto fue practicar y consolidar conocimientos Full
 
 Actualmente no cuenta con diferenciación de roles (admin / médico / usuario) ni sistema de notificaciones, dejando estas funcionalidades como posibles mejoras futuras.
 
-## 🖥️ Vistas de la aplicación:
+---
 
-Home
-<img width="1575" height="760" alt="Captura" src="https://github.com/user-attachments/assets/5a0a2858-ba02-44be-8dcd-56d4c95447d0" />
+## 🖥️ Vistas de la aplicación
 
-About Us
-<img width="1548" height="765" alt="Captura2" src="https://github.com/user-attachments/assets/eba62c4b-9c56-4440-b04d-9bedf6928696" />
+<table>
 
-Registro (formulario de creación de usuario)
-<img width="1574" height="749" alt="Captura3" src="https://github.com/user-attachments/assets/6daeb307-6b93-469d-808d-576f4d7eae5a" />
+  <!-- Home + About Us -->
+  <tr>
+    <td width="50%" align="center" valign="top">
 
-Login (formulario de usuario y contraseña)
-<img width="1586" height="750" alt="Captura4" src="https://github.com/user-attachments/assets/7500fbfa-066f-4db2-b1bf-be09e3c2ba2b" />
+### 🏠 Home
+<p>Vista principal de la aplicación, donde se presenta el servicio de gestión de turnos.</p>
+<img alt="Home" src="https://github.com/user-attachments/assets/5a0a2858-ba02-44be-8dcd-56d4c95447d0" />
 
-Vista turnos
-<img width="1566" height="706" alt="Captura5" src="https://github.com/user-attachments/assets/366617f5-aebd-412a-900d-60edfc5d31a3" />
+</td>
+    <td width="50%" align="center" valign="top">
+
+### ℹ️ About Us
+<p>Sección informativa con detalles sobre el centro de salud y su propuesta.</p>
+<img alt="About Us" src="https://github.com/user-attachments/assets/eba62c4b-9c56-4440-b04d-9bedf6928696" />
+
+</td>
+  </tr>
+
+  <!-- Register + Login -->
+  <tr>
+    <td width="50%" align="center" valign="top">
+
+### 📝 Registro
+<p>Formulario de creación de usuario para acceder al sistema.</p>
+<img alt="Registro" src="https://github.com/user-attachments/assets/6daeb307-6b93-469d-808d-576f4d7eae5a" />
+
+</td>
+    <td width="50%" align="center" valign="top">
+
+### 🔐 Login
+<p>Formulario de autenticación mediante usuario y contraseña.</p>
+<img alt="Login" src="https://github.com/user-attachments/assets/7500fbfa-066f-4db2-b1bf-be09e3c2ba2b" />
+
+</td>
+  </tr>
+
+  <!-- Vista Turnos -->
+  <tr>
+    <td colspan="2" align="center" valign="top">
+
+### 📅 Vista de Turnos
+<p>Panel donde el usuario puede visualizar, agendar y cancelar turnos.</p>
+<img alt="Vista de Turnos" src="https://github.com/user-attachments/assets/366617f5-aebd-412a-900d-60edfc5d31a3" />
+
+</td>
+  </tr>
+
+</table>
+
+---
 
 ## 🛠️ Stack Tecnológico
 ### Frontend:
@@ -88,6 +130,8 @@ Base de datos: Render (PostgreSQL)
 
 La aplicación se encuentra funcional y desplegada, aunque abierta a mejoras y nuevas funcionalidades.
 
+---
+
 ## 🎯 Objetivo del proyecto
 
 Este proyecto fue desarrollado con fines académicos y de aprendizaje, buscando:
@@ -101,6 +145,8 @@ Trabajar con una base de datos relacional
 Conectar frontend y backend mediante una API REST
 
 Preparar un proyecto real para portfolio profesional
+
+---
 
 ## 🚀 Posibles mejoras futuras:
 
@@ -116,25 +162,17 @@ Preparar un proyecto real para portfolio profesional
 
 📊 Panel de administración
 
+---
+
 ## 🔑 Usuarios de prueba: 
 -Username: prueba1
 -Contraseña: 123456
 
+---
+
 ## 👨‍💻 Sobre el desarrollador:
 
 Proyecto realizado por Francisco Sequeira, desarrollador Full Stack Junior / Trainee, en búsqueda de su primer experiencia laboral en IT.
-
-📌 Intereses:
-
--Desarrollo Full Stack
-
--Backend
-
--APIs REST
-
--Bases de datos
-
--Mejores prácticas de código
 
 📎 LinkedIn: [link] www.linkedin.com/in/francisco-sequeira-
 
