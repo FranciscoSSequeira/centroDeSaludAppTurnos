@@ -6,7 +6,7 @@ El objetivo principal del proyecto fue practicar y consolidar conocimientos Full
 
 🌐 Demo: [link a la app](https://centro-de-salud-app-turnos.vercel.app/)
 
-### Aclaración: al ser ser una aplicación de prueba, las respuestas del servidor pueden demorar hasta 5 minutos en algunos casos. 
+### Aclaración: al ser una aplicación de prueba, las respuestas del servidor pueden demorar hasta 5 minutos en algunos casos. 
 
 ---
 
@@ -176,7 +176,7 @@ Preparar un proyecto real para portfolio profesional
 -Contraseña: 123456
 🌐 Demo: [link a la app](https://centro-de-salud-app-turnos.vercel.app/)
 
-### Aclaración: al ser ser una aplicación de prueba, las respuestas del servidor pueden demorar hasta 5 minutos en algunos casos. 
+### Aclaración: al ser una aplicación de prueba, las respuestas del servidor pueden demorar hasta 5 minutos en algunos casos. 
 
 ---
 
